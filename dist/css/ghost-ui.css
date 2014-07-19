@@ -5653,7 +5653,10 @@ body.zen {
     .settings-content .content:before {
       display: block;
       content: "";
-      height: 87px; }
+      height: 77px; }
+      @media (max-width: 550px) {
+        .settings-content .content:before {
+          height: 87px; } }
     .settings-content .content.no-padding {
       padding: 0; }
     @media (max-width: 1000px) {

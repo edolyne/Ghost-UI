@@ -367,7 +367,10 @@
         &:before {
             display: block;
             content: "";
-            height: 87px;
+            height: 77px;
+            @media (max-width: 550px) {
+                height: 87px;
+            }
         }
 
         &.no-padding {
