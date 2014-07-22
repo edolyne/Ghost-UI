@@ -2573,7 +2573,10 @@ a.object-list-item {
   width: 35px;
   border-radius: 100%;
   display: block;
-  border: 1px solid #979797; }
+  border: 1px solid #979797;
+  height: 35px;
+  background-size: cover;
+  background-position: center center; }
 
 @media (max-width: 500px) {
   .object-list-item-icon,
