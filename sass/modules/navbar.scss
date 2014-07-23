@@ -66,7 +66,8 @@
             position: relative;
             border-right: $grey 1px solid;
 
-            a {
+            a,
+            button {
                 display: block;
                 height: 40px;
                 padding: 11px 15px;
@@ -78,7 +79,10 @@
 
             a:hover,
             a:focus,
-            &.active a {
+            &.active a,
+            button:hover,
+            button:focus,
+            &.active button {
                 color: $lightgrey;
                 text-decoration: none;
                 position: relative;
@@ -87,7 +91,8 @@
             }
 
             // Make a little arrow pointing up at the currently active menu item
-            &.active a:after {
+            &.active a:after,
+            &.active button:after {
                 content: "";
                 position: absolute;
                 bottom: 0;
@@ -121,7 +126,8 @@
         }
 
         // Add some icons to specific nav items
-        a:before {
+        a:before,
+        button:before {
             margin-right: 5px;
         }
         .dashboard a {
@@ -146,7 +152,8 @@
         position: relative;
 
         // The anchor which toggles the menu open/closed
-        > a {
+        > a,
+        > button {
             @include icon-after($i-chevron-down, 8px) {
                 margin-left: 8px;
             };
@@ -174,7 +181,8 @@
 
         li {
             list-style: none;
-            a {
+            a,
+            button {
                 color: $lightgrey;
 
                 &:hover,
@@ -209,7 +217,8 @@
     border-right: none;
     border-left: $grey 1px solid;
 
-    > a {
+    > a,
+    > button {
         padding-left: 43px; //15px + 18px avatar + 10px
     }
 
@@ -237,8 +246,10 @@
     .usermenu-shortcuts a {
         @include icon($i-pc);
     }
-    .usermenu-signout a {
+    .usermenu-signout button {
         @include icon($i-power);
+        width: 100%;
+        text-align: left;
     }
 }
 
@@ -291,15 +302,20 @@
 
             a:hover,
             a:focus,
-            &.active a {
+            &.active a,
+            button:hover,
+            button:focus,
+            &.active button {
                 box-shadow: none;
             }
 
-            &.active a:after {
+            &.active a:after,
+            &.active button:after {
                 display: none;
             }
 
-            a:before {
+            a:before,
+            button:before {
                 margin-right: 1em;
             }
 
@@ -333,7 +349,8 @@
                 left: 0;
                 @include transition(left 0.3s ease 0s);
             }
-            > a {
+            > a,
+            > button {
                 &:hover,
                 &:focus {
                     background: inherit;
@@ -357,7 +374,8 @@
             li {
                 border-bottom: darken($grey, 3%) 1px solid;
 
-                a {
+                a,
+                button {
                     background: darken($grey, 3%);
 
                     &:hover,
