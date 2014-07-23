@@ -2805,9 +2805,9 @@ a.object-list-item {
       height: 0; }
   .image-uploader input.url {
     font: -webkit-small-control;
-    box-sizing: border-box;
     width: 276px;
     vertical-align: middle;
+    display: inline-block;
     padding: 9px 7px;
     margin: 10px 0;
     outline: 0;
