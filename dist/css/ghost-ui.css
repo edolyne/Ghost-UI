@@ -5394,9 +5394,7 @@ body.zen {
           margin-top: 5px; }
         .settings-menu li a:hover {
           text-decoration: none; } }
-    .settings-menu li:first-child {
-      border-top: none; }
-    .settings-menu li:first-child.active {
+    .settings-menu li:first-of-type, .settings-menu li:first-of-type.active {
       border-top: none; }
     @media (min-width: 801px) {
       .settings-menu li.active {

@@ -131,10 +131,8 @@
             }
         }
 
-        &:first-child {
-            border-top: none;
-        }
-        &:first-child.active {
+        &:first-of-type,
+        &:first-of-type.active, {
             border-top: none;
         }
 
