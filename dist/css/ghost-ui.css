@@ -2308,14 +2308,39 @@ input[type='radio']:focus + .gh-radio:after {
  *
  * Table of Contents
  *
- * Buttons
- * Split Buttons
+ * Main Container
+ * Notifications
  */
+/* ==========================================================================
+  Main Container
+  ========================================================================== */
+@media (min-width: 401px) {
+  main[data-notification-count], main[data-notification-count='4'] {
+    bottom: 224px; }
+    main[data-notification-count] .notifications.bottom, main[data-notification-count='4'] .notifications.bottom {
+      bottom: -224px; }
+  main[data-notification-count='0'], main[data-notification-count='0'] .notifications.bottom {
+    bottom: 0; }
+  main[data-notification-count='1'] {
+    bottom: 56px; }
+    main[data-notification-count='1'] .notifications.bottom {
+      bottom: -56px; }
+  main[data-notification-count='2'] {
+    bottom: 112px; }
+    main[data-notification-count='2'] .notifications.bottom {
+      bottom: -112px; }
+  main[data-notification-count='3'] {
+    bottom: 168px; }
+    main[data-notification-count='3'] .notifications.bottom {
+      bottom: -168px; } }
 /* ==========================================================================
   Notifications
   ========================================================================== */
 @media (min-width: 401px) {
-  .notifications {
+  .notifications.top {
+    max-height: 224px;
+    overflow: auto; }
+  .notifications.bottom {
     position: absolute;
     bottom: 0;
     left: 0;

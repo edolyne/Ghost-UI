@@ -3,9 +3,55 @@
  *
  * Table of Contents
  *
- * Buttons
- * Split Buttons
+ * Main Container
+ * Notifications
  */
+
+
+ /* ==========================================================================
+   Main Container
+   ========================================================================== */
+
+@media (min-width: 401px) {
+    main {
+
+        // This is applied when there are 4 or more notifications
+        &[data-notification-count],
+        &[data-notification-count='4'] {
+            bottom: 224px;
+            .notifications.bottom {
+                bottom: -224px;
+            }
+        }
+
+        // When there's no top notifications
+        &[data-notification-count='0'],
+        &[data-notification-count='0'] .notifications.bottom {
+            bottom: 0;
+        }
+
+        // When 1, 2 or 3 notifications
+        &[data-notification-count='1'] {
+            bottom: 56px;
+            .notifications.bottom {
+                bottom: -56px;
+            }
+        }
+        &[data-notification-count='2'] {
+            bottom: 112px;
+            .notifications.bottom {
+                bottom: -112px;
+            }
+        }
+        &[data-notification-count='3'] {
+            bottom: 168px;
+            .notifications.bottom {
+                bottom: -168px;
+            }
+        }
+
+    } // main
+} // @media (min-width: 401px)
 
 
  /* ==========================================================================
@@ -15,11 +61,17 @@
 .notifications {
 
     @media (min-width: 401px) {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        z-index: 980;
-        width: 300px;
+        &.top {
+            max-height: (56px * 4);
+            overflow: auto;
+        }
+        &.bottom {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            z-index: 980;
+            width: 300px;
+        }
     }
 
     @media (max-width: 400px) {
