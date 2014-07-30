@@ -2992,8 +2992,7 @@ a.object-list-item {
     font-size: 1em;
     position: relative;
     border-right: #35393b 1px solid; }
-    .navbar nav li a,
-    .navbar nav li button {
+    .navbar nav li a {
       display: block;
       height: 40px;
       padding: 11px 15px;
@@ -3004,15 +3003,13 @@ a.object-list-item {
       -moz-box-sizing: border-box;
       box-sizing: border-box; }
     .navbar nav li a:hover,
-    .navbar nav li a:focus, .navbar nav li.active a,
-    .navbar nav li button:hover,
-    .navbar nav li button:focus, .navbar nav li.active button {
+    .navbar nav li a:focus, .navbar nav li.active a {
       color: #e2edf2;
       text-decoration: none;
       position: relative;
       background: #303436;
       box-shadow: 0 -2px 2px rgba(0, 0, 0, 0.2) inset; }
-    .navbar nav li.active a:after, .navbar nav li.active button:after {
+    .navbar nav li.active a:after {
       content: "";
       position: absolute;
       bottom: 0;
@@ -3024,7 +3021,7 @@ a.object-list-item {
       display: block;
       width: 0; }
       @media (max-width: 400px) {
-        .navbar nav li.active a:after, .navbar nav li.active button:after {
+        .navbar nav li.active a:after {
           border-color: #fff transparent; } }
     .navbar nav li ul {
       position: absolute;
@@ -3035,8 +3032,7 @@ a.object-list-item {
     .navbar nav li li {
       width: 100%;
       border-right: none; }
-  .navbar nav a:before,
-  .navbar nav button:before {
+  .navbar nav a:before {
     margin-right: 5px; }
   .navbar nav .dashboard a:before {
     font-family: "GhostIcons";
@@ -3089,8 +3085,7 @@ a.object-list-item {
     text-decoration: none; }
   .navbar .subnav {
     position: relative; }
-    .navbar .subnav > a:after,
-    .navbar .subnav > button:after {
+    .navbar .subnav > a:after {
       font-family: "GhostIcons";
       font-weight: normal;
       font-style: normal;
@@ -3102,11 +3097,9 @@ a.object-list-item {
       content: "\e001";
       font-size: 8px;
       margin-left: 8px; }
-    .navbar .subnav > a:hover,
-    .navbar .subnav > button:hover {
+    .navbar .subnav > a:hover {
       text-decoration: none; }
-    .navbar .subnav > a.active,
-    .navbar .subnav > button.active {
+    .navbar .subnav > a.active {
       color: #e2edf2;
       background: #2e3133;
       -webkit-transition: none;
@@ -3125,19 +3118,15 @@ a.object-list-item {
       box-shadow: rgba(0, 0, 0, 0.2) 0 4px 6px; }
     .navbar .subnav li {
       list-style: none; }
-      .navbar .subnav li a,
-      .navbar .subnav li button {
+      .navbar .subnav li a {
         color: #e2edf2; }
-        .navbar .subnav li a:hover, .navbar .subnav li a:focus,
-        .navbar .subnav li button:hover,
-        .navbar .subnav li button:focus {
+        .navbar .subnav li a:hover, .navbar .subnav li a:focus {
           background: #0c0d0d;
           -webkit-transition: none;
           -moz-transition: none;
           transition: none;
           box-shadow: none; }
-        .navbar .subnav li a:before,
-        .navbar .subnav li button:before {
+        .navbar .subnav li a:before {
           margin-right: 1em; }
     .navbar .subnav .divider {
       height: 1px;
@@ -3151,8 +3140,7 @@ a.object-list-item {
   right: 0;
   border-right: none;
   border-left: #35393b 1px solid; }
-  .usermenu.subnav > a,
-  .usermenu.subnav > button {
+  .usermenu.subnav > a {
     padding-left: 43px; }
   .usermenu.subnav .avatar {
     height: 18px;
@@ -3201,21 +3189,18 @@ a.object-list-item {
     content: "\e00d"; }
   .usermenu.subnav .usermenu-shortcuts a:hover {
     text-decoration: none; }
-  .usermenu.subnav .usermenu-signout button {
-    width: 100%;
-    text-align: left; }
-    .usermenu.subnav .usermenu-signout button:before {
-      font-family: "GhostIcons";
-      font-weight: normal;
-      font-style: normal;
-      vertical-align: -7%;
-      text-transform: none;
-      speak: none;
-      line-height: 1;
-      -webkit-font-smoothing: antialiased;
-      content: "\e02b"; }
-    .usermenu.subnav .usermenu-signout button:hover {
-      text-decoration: none; }
+  .usermenu.subnav .usermenu-signout a:before {
+    font-family: "GhostIcons";
+    font-weight: normal;
+    font-style: normal;
+    vertical-align: -7%;
+    text-transform: none;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    content: "\e02b"; }
+  .usermenu.subnav .usermenu-signout a:hover {
+    text-decoration: none; }
 
 /* ==========================================================================
    Mobile Navigation
@@ -3273,14 +3258,11 @@ a.object-list-item {
     border-right: none;
     border-bottom: #35393b 1px solid; }
     #global-header li a:hover,
-    #global-header li a:focus, #global-header li.active a,
-    #global-header li button:hover,
-    #global-header li button:focus, #global-header li.active button {
+    #global-header li a:focus, #global-header li.active a {
       box-shadow: none; }
-    #global-header li.active a:after, #global-header li.active button:after {
+    #global-header li.active a:after {
       display: none; }
-    #global-header li a:before,
-    #global-header li button:before {
+    #global-header li a:before {
       margin-right: 1em; }
     #global-header li ul {
       position: static;
@@ -3313,12 +3295,9 @@ a.object-list-item {
       -webkit-transition: left 0.3s ease 0s;
       -moz-transition: left 0.3s ease 0s;
       transition: left 0.3s ease 0s; }
-    #global-header .usermenu > a:hover, #global-header .usermenu > a:focus,
-    #global-header .usermenu > button:hover,
-    #global-header .usermenu > button:focus {
+    #global-header .usermenu > a:hover, #global-header .usermenu > a:focus {
       background: inherit; }
-    #global-header .usermenu > a.active,
-    #global-header .usermenu > button.active {
+    #global-header .usermenu > a.active {
       background: #2e3133; }
     #global-header .usermenu > ul {
       padding: 0;
@@ -3329,15 +3308,11 @@ a.object-list-item {
       box-shadow: rgba(0, 0, 0, 0.4) 0 10px 20px; }
     #global-header .usermenu li {
       border-bottom: #2e3133 1px solid; }
-      #global-header .usermenu li a,
-      #global-header .usermenu li button {
+      #global-header .usermenu li a {
         background: #2e3133; }
-        #global-header .usermenu li a:hover, #global-header .usermenu li a:focus,
-        #global-header .usermenu li button:hover,
-        #global-header .usermenu li button:focus {
+        #global-header .usermenu li a:hover, #global-header .usermenu li a:focus {
           background: #222426; }
-        #global-header .usermenu li a:before,
-        #global-header .usermenu li button:before {
+        #global-header .usermenu li a:before {
           margin-right: 1em; }
     #global-header .usermenu .divider {
       display: none; } }
