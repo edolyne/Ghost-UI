@@ -1956,7 +1956,7 @@ input[type='radio']:focus + .gh-radio:after {
   right: 0;
   z-index: 400;
   height: 40px;
-  padding: 6px 15px 14px;
+  padding: 8px 15px 12px;
   text-transform: uppercase;
   color: #aaa9a2;
   background-color: transparent;
@@ -4294,7 +4294,9 @@ nav li a {
     color: #aaa9a2; }
   .editor .entry-markdown .floatingheader .entry-word-count,
   .editor .entry-preview .floatingheader .entry-word-count {
-    float: right; }
+    float: right;
+    position: relative;
+    top: 2px; }
   @media (max-width: 1000px) {
     .editor .entry-markdown:not(.active) .markdown-help:hover:before,
     .editor .entry-preview:not(.active) .markdown-help:hover:before {
