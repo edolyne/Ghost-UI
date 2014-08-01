@@ -2770,7 +2770,7 @@ a.object-list-item {
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     content: "\e036";
-    font-size: 12px; }
+    font-size: 16px; }
   .image-uploader .image-webcam:hover {
     text-decoration: none; }
   .image-uploader .image-url:before {
@@ -2783,7 +2783,7 @@ a.object-list-item {
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     content: "\e035";
-    font-size: 12px; }
+    font-size: 16px; }
   .image-uploader .image-url:hover {
     text-decoration: none; }
   .image-uploader .image-upload:before {
@@ -2796,7 +2796,7 @@ a.object-list-item {
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     content: "\e011";
-    font-size: 12px; }
+    font-size: 16px; }
   .image-uploader .image-upload:hover {
     text-decoration: none; }
   .image-uploader .button-add {
