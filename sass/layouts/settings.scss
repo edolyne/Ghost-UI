@@ -224,8 +224,7 @@
         max-height: 400px;
     }
 
-    // TODO: Header could really be more specific (class)
-    > header {
+    .settings-content-header {
         position: relative;
         z-index: 200;
         height: 17px;
@@ -257,6 +256,7 @@
             padding: 5px;
             position: absolute;
             top: 0;
+            left: 0;
             right: 0;
             border: none;
             background: transparent;
@@ -293,7 +293,7 @@
             outline: 1px solid red;
         }
 
-    } // header
+    } // .settings-content-header
 
 
     .page-actions {

@@ -5589,7 +5589,7 @@ body.zen {
   .settings-content .settings-general img {
     max-width: 100%;
     max-height: 400px; }
-  .settings-content > header {
+  .settings-content .settings-content-header {
     position: relative;
     z-index: 200;
     height: 17px;
@@ -5607,23 +5607,24 @@ body.zen {
     background: -ms-linear-gradient(top, white 0%, white 25%, rgba(255, 255, 255, 0.9) 100%);
     background: linear-gradient(to bottom, white 0%, white 25%, rgba(255, 255, 255, 0.9) 100%); }
     @media (max-width: 1000px) {
-      .settings-content > header {
+      .settings-content .settings-content-header {
         padding-left: 15px; } }
     @media (max-height: 600px) {
-      .settings-content > header {
+      .settings-content .settings-content-header {
         height: auto;
         padding: 5px;
         position: absolute;
         top: 0;
+        left: 0;
         right: 0;
         border: none;
         background: transparent; }
-        .settings-content > header .title {
+        .settings-content .settings-content-header .title {
           display: none; } }
     @media (max-width: 650px) {
-      .settings-content > header {
+      .settings-content .settings-content-header {
         padding-left: 15px; }
-        .settings-content > header .button-back {
+        .settings-content .settings-content-header .button-back {
           position: fixed;
           top: 5px;
           left: 14px;
@@ -5631,10 +5632,10 @@ body.zen {
           padding-top: 8px;
           padding-bottom: 8px;
           display: block; }
-          .settings-content > header .button-back:before {
+          .settings-content .settings-content-header .button-back:before {
             left: -9px;
             border-width: 15px 9px 15px 0; } }
-    .settings-content > header .header-inner {
+    .settings-content .settings-content-header .header-inner {
       position: absolute;
       top: 0;
       left: 0;
