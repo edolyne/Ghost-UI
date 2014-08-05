@@ -61,16 +61,12 @@
         }
     }
 
-    .image-webcam {
-      @include icon($i-camera, 16px);
-    }
-
     .image-url {
-      @include icon($i-link, 16px);
+      @include icon($i-link, 12px);
     }
 
     .image-upload {
-      @include icon($i-image, 16px);
+      @include icon($i-image, 14px);
     }
 
     .button-add {

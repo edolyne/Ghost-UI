@@ -2760,19 +2760,6 @@ a.object-list-item {
     .image-uploader .image-url:hover,
     .image-uploader .image-upload:hover {
       cursor: pointer; }
-  .image-uploader .image-webcam:before {
-    font-family: "GhostIcons";
-    font-weight: normal;
-    font-style: normal;
-    vertical-align: -7%;
-    text-transform: none;
-    speak: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    content: "\e036";
-    font-size: 16px; }
-  .image-uploader .image-webcam:hover {
-    text-decoration: none; }
   .image-uploader .image-url:before {
     font-family: "GhostIcons";
     font-weight: normal;
@@ -2783,7 +2770,7 @@ a.object-list-item {
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     content: "\e035";
-    font-size: 16px; }
+    font-size: 12px; }
   .image-uploader .image-url:hover {
     text-decoration: none; }
   .image-uploader .image-upload:before {
@@ -2796,7 +2783,7 @@ a.object-list-item {
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     content: "\e011";
-    font-size: 16px; }
+    font-size: 14px; }
   .image-uploader .image-upload:hover {
     text-decoration: none; }
   .image-uploader .button-add {
