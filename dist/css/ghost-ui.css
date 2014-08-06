@@ -5615,7 +5615,8 @@ body.zen {
           display: none; } }
     @media (max-width: 650px) {
       .settings-content .settings-content-header {
-        padding-left: 15px; }
+        padding-left: 15px;
+        margin-top: -10px; }
         .settings-content .settings-content-header .button-back {
           position: fixed;
           top: 5px;
@@ -5707,6 +5708,9 @@ body.zen {
       @media (max-width: 550px) {
         .settings-content .content:before {
           height: 87px; } }
+      @media (max-width: 550px) and (max-height: 600px) {
+        .settings-content .content:before {
+          height: 20px; } }
     .settings-content .content.no-padding {
       padding: 0; }
     @media (max-width: 1000px) {
@@ -6093,9 +6097,9 @@ body.zen {
       .settings .user-details-bottom {
         margin: -104px 0 0 0; } }
 
-@media (max-width: 650px) {
-  .users-back {
-    display: none; } }
+@media (max-width: 550px) {
+  .user-settings-header .settings-content .content:before {
+    height: 0; } }
 @media (max-width: 650px) {
   .page-actions .user-actions-cog {
     padding: 7px 0;
@@ -6111,9 +6115,14 @@ body.zen {
   .settings-content .user-settings-header {
     height: 0;
     padding: 0;
-    margin: 0;
     border-bottom: 0; }
 
   .user-settings-header .title,
+  .user-settings-header.settings-content-header .button-back,
   .settings-content .settings-user:before {
-    display: none; } }
+    display: none; }
+
+  .users-back {
+    min-height: 0;
+    height: 30px;
+    padding: 0.5em 1.37em 0.5em 0; } }

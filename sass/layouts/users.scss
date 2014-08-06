@@ -333,9 +333,9 @@
 
 } // .settings
 
-@media (max-width: 650px) {
-    .users-back {
-        display: none;
+@media (max-width: 550px) {
+    .user-settings-header .settings-content .content:before {
+        height: 0;
     }
 }
 
@@ -355,11 +355,18 @@
     .settings-content .user-settings-header {
         height: 0;
         padding: 0;
-        margin: 0;
         border-bottom: 0;
     }
     .user-settings-header .title,
+    .user-settings-header.settings-content-header .button-back,
     .settings-content .settings-user:before {
         display: none;
     }
+
+    .users-back {
+        min-height: 0;
+        height: 30px;
+        padding: 0.5em 1.37em 0.5em 0;
+    }
+
 }
