@@ -5655,9 +5655,12 @@ body.zen {
           padding: 0.5em 1.37em; } }
     .settings-content .page-actions.page-actions-alt {
       left: 40px; }
-      @media (max-width: 1000px) {
+      @media (min-width: 651px) and (max-width: 1000px) {
         .settings-content .page-actions.page-actions-alt {
           left: 15px; } }
+      @media (max-width: 650px) {
+        .settings-content .page-actions.page-actions-alt {
+          left: 5px; } }
     .settings-content .page-actions .button-add {
       position: relative;
       padding-left: 50px;
@@ -6021,6 +6024,9 @@ body.zen {
         padding-left: 143px; } }
     .settings .user-profile fieldset {
       padding: 0 40px; }
+      @media (max-width: 550px) {
+        .settings .user-profile fieldset {
+          padding: 0 15px; } }
     .settings .user-profile textarea {
       min-width: 240px; }
   @media (max-width: 650px) {
@@ -6032,11 +6038,6 @@ body.zen {
       padding: 0; }
       .settings fieldset.user-details-top p {
         color: #fff; } }
-  @media (max-width: 550px) {
-    .settings fieldset.user-details-top,
-    .settings fieldset.user-details-bottom {
-      padding-left: 15px;
-      padding-right: 15px; } }
   .settings .user-image {
     display: block;
     position: relative;
@@ -6084,6 +6085,9 @@ body.zen {
     -webkit-transition: opacity 0.3s ease;
     -moz-transition: opacity 0.3s ease;
     transition: opacity 0.3s ease; }
+  @media (max-width: 650px) {
+    .settings label[for='user-name'] {
+      clear: both; } }
   @media (min-width: 651px) {
     .settings label[for='user-name'] {
       visibility: hidden; }

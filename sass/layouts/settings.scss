@@ -320,8 +320,11 @@
         }
         &.page-actions-alt {
             left: 40px;
-            @media (max-width: 1000px) {
+            @media (min-width: 651px) and (max-width: 1000px) {
                 left: 15px;
+            }
+            @media (max-width: 650px) {
+                left: 5px;
             }
         }
 

@@ -228,6 +228,9 @@
 
         fieldset {
             padding: 0 40px;
+            @media (max-width: 550px) {
+                padding: 0 15px;
+            }
         }
 
         textarea {
@@ -249,14 +252,6 @@
             }
         }
 
-    }
-
-    @media (max-width: 550px) {
-        fieldset.user-details-top,
-        fieldset.user-details-bottom {
-            padding-left: 15px;
-            padding-right: 15px;
-        }
     }
 
     .user-image {
@@ -311,6 +306,12 @@
         text-transform: uppercase;
         text-decoration: none;
         @include transition(opacity 0.3s ease);
+    }
+
+    @media (max-width: 650px) {
+        label[for='user-name'] {
+            clear: both;
+        }
     }
 
     @media (min-width: 651px) {
