@@ -57,6 +57,10 @@
     padding: 0;
     display: table;
 
+    &.fade-in {
+        @include animation-duration(1s);
+    }
+
     @media (max-width: 630px) {
         max-width: 264px;
         text-align: center;

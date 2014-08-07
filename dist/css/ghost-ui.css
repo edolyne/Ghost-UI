@@ -739,10 +739,9 @@ main {
   to {
     opacity: 1; } }
 .fade-in {
-  -o-animation: fade-in 1s;
-  -moz-animation: fade-in 1s;
-  -webkit-animation: fade-in 1s;
-  animation: fade-in 1s; }
+  -webkit-animation: fade-in 0.2s;
+  -moz-animation: fade-in 0.2s;
+  animation: fade-in 0.2s; }
 
 @-webkit-keyframes fade-in-snap {
   to {
@@ -776,10 +775,9 @@ main {
   to {
     opacity: 0; } }
 .fade-out {
-  -o-animation: fade-out 0.5s;
-  -moz-animation: fade-out 0.5s;
-  -webkit-animation: fade-out 0.5s;
-  animation: fade-out 0.5s; }
+  -webkit-animation: fade-out 0.35s;
+  -moz-animation: fade-out 0.35s;
+  animation: fade-out 0.35s; }
 
 /*
  * Icon classes and utility mixins
@@ -3519,6 +3517,13 @@ nav li a {
   margin: 0 auto;
   padding: 0;
   display: table; }
+  .login-box.fade-in,
+  .signup-box.fade-in,
+  .forgotten-box.fade-in,
+  .reset-box.fade-in {
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-duration: 1s; }
   @media (max-width: 630px) {
     .login-box,
     .signup-box,
