@@ -315,11 +315,11 @@ button {
         @include transition(background-color 0.3s linear);
 
         // Keep the arrow spun when the associated menu is open
-        &.active:before {
+        &.open:before {
             @include transform(rotate(360deg));
         }
 
-        &.up.active:before {
+        &.up.open:before {
             margin-top:-4px;
             @include transform(rotate(540deg));
         }
@@ -371,7 +371,7 @@ button {
     .options {
         background: darken($blue, 5%);
         &:hover,
-        &.active,
+        &.open,
         &:focus {
             background: darken($blue, 10%);
         }

@@ -468,7 +468,7 @@ body.zen {
 
     .post-settings {
         &:hover,
-        &.active {
+        &.open {
             color: $lightgrey;
         }
     }

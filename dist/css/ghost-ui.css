@@ -1266,13 +1266,13 @@ button {
       transition-timing-function: ease; }
     .splitbutton .options:hover, .splitbutton-save .options:hover, .splitbutton-add .options:hover, .splitbutton-delete .options:hover, .splitbutton-alt .options:hover {
       text-decoration: none; }
-    .splitbutton .options.active:before, .splitbutton-save .options.active:before, .splitbutton-add .options.active:before, .splitbutton-delete .options.active:before, .splitbutton-alt .options.active:before {
+    .splitbutton .options.open:before, .splitbutton-save .options.open:before, .splitbutton-add .options.open:before, .splitbutton-delete .options.open:before, .splitbutton-alt .options.open:before {
       -webkit-transform: rotate(360deg);
       -moz-transform: rotate(360deg);
       -ms-transform: rotate(360deg);
       -o-transform: rotate(360deg);
       transform: rotate(360deg); }
-    .splitbutton .options.up.active:before, .splitbutton-save .options.up.active:before, .splitbutton-add .options.up.active:before, .splitbutton-delete .options.up.active:before, .splitbutton-alt .options.up.active:before {
+    .splitbutton .options.up.open:before, .splitbutton-save .options.up.open:before, .splitbutton-add .options.up.open:before, .splitbutton-delete .options.up.open:before, .splitbutton-alt .options.up.open:before {
       margin-top: -4px;
       -webkit-transform: rotate(540deg);
       -moz-transform: rotate(540deg);
@@ -1336,7 +1336,7 @@ button {
 
 .splitbutton-save .options {
   background: #4598e2; }
-  .splitbutton-save .options:hover, .splitbutton-save .options.active, .splitbutton-save .options:focus {
+  .splitbutton-save .options:hover, .splitbutton-save .options.open, .splitbutton-save .options:focus {
     background: #2f8cde; }
 
 .splitbutton-add .options {
@@ -3092,8 +3092,8 @@ a.object-list-item {
     .navbar .subnav > a:hover,
     .navbar .subnav > button:hover {
       text-decoration: none; }
-    .navbar .subnav > a.active,
-    .navbar .subnav > button.active {
+    .navbar .subnav > a.open,
+    .navbar .subnav > button.open {
       color: #e2edf2;
       background: #2e3133;
       -webkit-transition: none;
@@ -4613,7 +4613,7 @@ body.zen {
   @media (max-width: 1000px) {
     #publish-bar {
       font-weight: normal; } }
-  #publish-bar .post-settings:hover, #publish-bar .post-settings.active {
+  #publish-bar .post-settings:hover, #publish-bar .post-settings.open {
     color: #e2edf2; }
   #publish-bar .post-settings-menu {
     position: absolute;
@@ -5247,7 +5247,7 @@ body.zen {
     font-size: 14px; }
   .post-settings:hover {
     text-decoration: none; }
-  .post-settings:hover, .post-settings.active {
+  .post-settings:hover, .post-settings.open {
     color: #242628; }
 
 .post-settings-menu {

@@ -157,7 +157,7 @@
                 margin-left: 8px;
             };
 
-            &.active {
+            &.open {
                 color: $lightgrey;
                 background: darken($grey, 3%);
                 @include transition(none);
