@@ -6,6 +6,7 @@
  * Settings
  * Sidebar
  * Content
+ * Debug
  * Code Injection
  */
 
@@ -414,6 +415,28 @@
     }
 
 } // .settings-content
+
+
+/* =============================================================================
+   Debug
+   ============================================================================= */
+
+.settings-debug {
+    .content:before {
+        height: 0;
+    }
+    .settings-content {
+        @media (max-width: 800px) {
+            left: 0;
+            right: 0;
+            z-index: 800;
+            top: 77px;
+        }
+        @media (max-width: 550px) {
+            top: 97px;
+        }
+    }
+}
 
 
 /* =============================================================================

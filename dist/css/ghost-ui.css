@@ -5345,6 +5345,7 @@ body.zen {
  * Settings
  * Sidebar
  * Content
+ * Debug
  * Code Injection
  */
 /* ==========================================================================
@@ -5744,6 +5745,21 @@ body.zen {
       max-width: 100%; }
       .settings-content textarea + p {
         max-width: 100%; } }
+
+/* =============================================================================
+   Debug
+   ============================================================================= */
+.settings-debug .content:before {
+  height: 0; }
+@media (max-width: 800px) {
+  .settings-debug .settings-content {
+    left: 0;
+    right: 0;
+    z-index: 800;
+    top: 77px; } }
+@media (max-width: 550px) {
+  .settings-debug .settings-content {
+    top: 97px; } }
 
 /* =============================================================================
    Code Injection
