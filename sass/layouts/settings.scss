@@ -30,7 +30,6 @@
         @media (max-width: 800px) {
             top: -55px;
             margin-top: 55px;
-            overflow-x: hidden;
         }
     } // .wrapper
 
@@ -249,9 +248,7 @@
         @media (max-width: 1000px) {
             padding-left: 15px;
         }
-        // @media (max-width: 800px) {
-        //     padding-left: 115px;
-        // }
+
         @media (max-height: 600px) {
             height: auto;
             padding: 5px;
@@ -261,14 +258,13 @@
             right: 0;
             border: none;
             background: transparent;
-
             .title {
                 display: none;
             }
         }
+
         @media (max-width: 650px) {
             padding-left: 15px;
-            margin-top: -10px;
 
             .button-back {
                 position: fixed;
@@ -388,7 +384,7 @@
             padding-right: 15px;
         }
         @media (max-width: 550px) {
-            padding: 0 15px 40px;
+            padding: 10px 15px 40px;
         }
     } // .content
 
