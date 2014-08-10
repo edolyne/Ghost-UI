@@ -798,8 +798,8 @@ main {
    ========================================================================== */
 @font-face {
   font-family: 'GhostIcons';
-  src: url("../fonts/icons.eot");
-  src: url("../fonts/icons.eot?#iefix") format("embedded-opentype"), url("../fonts/icons.woff") format("woff"), url("../fonts/icons.ttf") format("truetype"), url("../fonts/icons.svg#icons") format("svg");
+  src: url("../fonts/icons.eot?-9xvo92");
+  src: url("../fonts/icons.eot?#iefix-9xvo92") format("embedded-opentype"), url("../fonts/icons.woff?-9xvo92") format("woff"), url("../fonts/icons.ttf?-9xvo92") format("truetype"), url("../fonts/icons.svg?-9xvo92#icons") format("svg");
   font-weight: normal;
   font-style: normal; }
 /* ==========================================================================
@@ -835,196 +835,193 @@ main {
    Icon Classes
    ========================================================================== */
 .icon-ghost:before {
-  content: "\f000"; }
-
-.icon-ghost-logo:before {
   content: "\f600"; }
 
+.icon-ghost-logo:before {
+  content: "\f640"; }
+
 .icon-chevron-down:before {
-  content: "\f001"; }
+  content: "\f601"; }
 
 .icon-users:before {
-  content: "\f002"; }
+  content: "\f602"; }
 
 .icon-tag:before {
-  content: "\f003"; }
+  content: "\f603"; }
 
 .icon-tablet:before {
-  content: "\f004"; }
+  content: "\f604"; }
 
 .icon-menu:before {
-  content: "\f005"; }
+  content: "\f605"; }
 
 .icon-settings:before {
-  content: "\f006"; }
+  content: "\f606"; }
 
 .icon-search:before {
-  content: "\f007"; }
+  content: "\f607"; }
 
 .icon-search-left:before {
-  content: "\f008"; }
+  content: "\f608"; }
 
 .icon-rss:before {
-  content: "\f009"; }
+  content: "\f609"; }
 
 .icon-preview:before {
-  content: "\f00a"; }
+  content: "\f60a"; }
 
 .icon-app:before {
-  content: "\f00b"; }
+  content: "\f60b"; }
 
 .icon-pin:before {
-  content: "\f00c"; }
+  content: "\f60c"; }
 
 .icon-pc:before {
-  content: "\f00d"; }
+  content: "\f60d"; }
 
 .icon-pacman:before {
-  content: "\f00e"; }
+  content: "\f60e"; }
 
 .icon-edit:before {
-  content: "\f00f"; }
+  content: "\f60f"; }
 
 .icon-mobile:before {
-  content: "\f010"; }
+  content: "\f610"; }
 
 .icon-image:before {
-  content: "\f011"; }
+  content: "\f611"; }
 
 .icon-mail:before {
-  content: "\f012"; }
+  content: "\f612"; }
 
 .icon-list:before {
-  content: "\f013"; }
+  content: "\f613"; }
 
 .icon-info:before {
-  content: "\f014"; }
+  content: "\f614"; }
 
 .icon-home:before {
-  content: "\f015"; }
+  content: "\f615"; }
 
 .icon-grid:before {
-  content: "\f016"; }
+  content: "\f616"; }
 
 .icon-fullscreen:before {
-  content: "\f017"; }
+  content: "\f617"; }
 
 .icon-question:before {
-  content: "\f018"; }
+  content: "\f618"; }
 
 .icon-external:before {
-  content: "\f019"; }
+  content: "\f619"; }
 
 .icon-error:before {
-  content: "\f01a"; }
+  content: "\f61a"; }
 
 .icon-comments:before {
-  content: "\f01b"; }
+  content: "\f61b"; }
 
 .icon-close:before {
-  content: "\f01c"; }
+  content: "\f61c"; }
 
 .icon-chevron:before {
-  content: "\f01d"; }
+  content: "\f61d"; }
 
 .icon-chevron-left:before {
-  content: "\f11d"; }
+  content: "\f63f"; }
 
 .icon-calendar:before {
-  content: "\f01e"; }
+  content: "\f61e"; }
 
 .icon-archive:before {
-  content: "\f01f"; }
+  content: "\f61f"; }
 
 .icon-services:before {
-  content: "\f020"; }
+  content: "\f620"; }
 
 .icon-appearance:before {
-  content: "\f021"; }
+  content: "\f621"; }
 
 .icon-video:before {
-  content: "\f022"; }
+  content: "\f622"; }
 
 .icon-trash:before {
-  content: "\f023"; }
+  content: "\f623"; }
 
 .icon-reply:before {
-  content: "\f024"; }
+  content: "\f624"; }
 
 .icon-stats:before {
-  content: "\f025"; }
+  content: "\f625"; }
 
 .icon-featured:before {
-  content: "\f026"; }
+  content: "\f626"; }
 
 .icon-unfeatured:before {
-  content: "\f027"; }
+  content: "\f627"; }
 
 .icon-clock:before {
-  content: "\f028"; }
+  content: "\f628"; }
 
 .icon-settings2:before {
-  content: "\f029"; }
-
-.icon-camera:before {
-  content: "\f036"; }
+  content: "\f629"; }
 
 .icon-power:before {
-  content: "\f02b"; }
+  content: "\f62b"; }
 
 .icon-lock:before {
-  content: "\f02c"; }
+  content: "\f62c"; }
 
 .icon-content:before {
-  content: "\f02d"; }
+  content: "\f62d"; }
 
 .icon-user:before {
-  content: "\f02e"; }
+  content: "\f62e"; }
 
 .icon-support:before {
-  content: "\f02f"; }
+  content: "\f62f"; }
 
 .icon-success:before {
-  content: "\f030"; }
+  content: "\f630"; }
 
 .icon-notification:before {
-  content: "\f031"; }
+  content: "\f631"; }
 
 .icon-add:before {
-  content: "\f032"; }
+  content: "\f632"; }
 
 .icon-check:before {
-  content: "\f033"; }
+  content: "\f633"; }
 
 .icon-x:before {
-  content: "\f034"; }
+  content: "\f634"; }
 
 .icon-link:before {
-  content: "\f035"; }
+  content: "\f635"; }
 
 .icon-camera:before {
-  content: "\f036"; }
+  content: "\f636"; }
 
 .icon-repost:before {
-  content: "\f037"; }
+  content: "\f637"; }
 
 .icon-weather-rain:before {
-  content: "\f038"; }
+  content: "\f638"; }
 
 .icon-weather-sun:before {
-  content: "\f039"; }
+  content: "\f639"; }
 
 .icon-weather-partial:before {
-  content: "\f03a"; }
+  content: "\f63a"; }
 
 .icon-weather-snow:before {
-  content: "\f03b"; }
+  content: "\f63b"; }
 
 .icon-weather-cloudy:before {
-  content: "\f03c"; }
+  content: "\f63c"; }
 
 .icon-lightning:before {
-  content: "\f03d"; }
+  content: "\f63d"; }
 
 /*
  * Button classes, including
@@ -1242,7 +1239,7 @@ button {
       speak: none;
       line-height: 1;
       -webkit-font-smoothing: antialiased;
-      content: "\f001";
+      content: "\f601";
       font-size: 9px;
       position: absolute;
       top: 50%;
@@ -1292,7 +1289,7 @@ button {
         speak: none;
         line-height: 1;
         -webkit-font-smoothing: antialiased;
-        content: "\f001";
+        content: "\f601";
         will-change: transform;
         -webkit-transform: rotate(360deg);
         -moz-transform: rotate(360deg);
@@ -1310,7 +1307,7 @@ button {
       speak: none;
       line-height: 1;
       -webkit-font-smoothing: antialiased;
-      content: "\f001";
+      content: "\f601";
       margin-top: -4px;
       -webkit-transform: rotate(540deg);
       -moz-transform: rotate(540deg);
@@ -1737,9 +1734,9 @@ select {
   font-size: 1.1rem;
   font-weight: normal;
   color: #242628;
-  -webkit-transition: border-color, 0.15s linear;
-  -moz-transition: border-color, 0.15s linear;
-  transition: border-color, 0.15s linear; }
+  -webkit-transition: border-color 0.15s linear;
+  -moz-transition: border-color 0.15s linear;
+  transition: border-color 0.15s linear; }
   input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus,
   textarea:focus,
   .gh-select:focus,
@@ -1903,7 +1900,7 @@ input[type='radio']:focus + .gh-radio:after {
     speak: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    content: "\f001";
+    content: "\f601";
     font-size: 0.85em;
     color: #c0bfb6;
     position: absolute;
@@ -2124,7 +2121,7 @@ input[type='radio']:focus + .gh-radio:after {
       speak: none;
       line-height: 1;
       -webkit-font-smoothing: antialiased;
-      content: "\f01c";
+      content: "\f61c";
       font-size: 1.4rem;
       color: #7d878a;
       -webkit-transition: color 0.3s linear;
@@ -2181,7 +2178,7 @@ input[type='radio']:focus + .gh-radio:after {
   speak: none;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
-  content: "\f001";
+  content: "\f601";
   font-size: 8px;
   padding-left: 6px;
   vertical-align: 0; }
@@ -2198,7 +2195,7 @@ input[type='radio']:focus + .gh-radio:after {
     speak: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    content: "\f001";
+    content: "\f601";
     font-size: 8px; }
   .dropdown.active:hover {
     text-decoration: none; }
@@ -2273,7 +2270,7 @@ input[type='radio']:focus + .gh-radio:after {
     speak: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    content: "\f033";
+    content: "\f633";
     position: absolute;
     top: 14px;
     left: 11px; }
@@ -2382,7 +2379,7 @@ input[type='radio']:focus + .gh-radio:after {
     speak: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    content: "\f031";
+    content: "\f631";
     position: absolute;
     top: 0;
     left: 0;
@@ -2418,7 +2415,7 @@ input[type='radio']:focus + .gh-radio:after {
       speak: none;
       line-height: 1;
       -webkit-font-smoothing: antialiased;
-      content: "\f01c";
+      content: "\f61c";
       padding: 10px;
       position: absolute;
       top: 4px;
@@ -2442,7 +2439,7 @@ input[type='radio']:focus + .gh-radio:after {
     speak: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    content: "\f030"; }
+    content: "\f630"; }
   .notification-success:hover {
     text-decoration: none; }
   .notification-success.notification-passive {
@@ -2474,7 +2471,7 @@ input[type='radio']:focus + .gh-radio:after {
     speak: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    content: "\f01a"; }
+    content: "\f61a"; }
   .notification-error:hover {
     text-decoration: none; }
 
@@ -2489,7 +2486,7 @@ input[type='radio']:focus + .gh-radio:after {
     speak: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    content: "\f014"; }
+    content: "\f614"; }
   .notification-warn:hover {
     text-decoration: none; }
 
@@ -2504,7 +2501,7 @@ input[type='radio']:focus + .gh-radio:after {
     speak: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    content: "\f014"; }
+    content: "\f614"; }
   .notification-info:hover {
     text-decoration: none; }
 
@@ -2736,7 +2733,7 @@ a.object-list-item {
     speak: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    content: "\f011";
+    content: "\f611";
     font-size: 60px;
     color: #e7e6db;
     display: inline-block;
@@ -2772,7 +2769,7 @@ a.object-list-item {
     speak: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    content: "\f035";
+    content: "\f635";
     font-size: 12px; }
   .image-uploader .image-url:hover {
     text-decoration: none; }
@@ -2785,7 +2782,7 @@ a.object-list-item {
     speak: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    content: "\f011";
+    content: "\f611";
     font-size: 14px; }
   .image-uploader .image-upload:hover {
     text-decoration: none; }
@@ -2910,7 +2907,7 @@ a.object-list-item {
       speak: none;
       line-height: 1;
       -webkit-font-smoothing: antialiased;
-      content: "\f023";
+      content: "\f623";
       font-size: 11px; }
     .pre-image-uploader .image-cancel:hover {
       text-decoration: none; }
@@ -2949,7 +2946,7 @@ a.object-list-item {
     speak: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    content: "\f000";
+    content: "\f600";
     line-height: 0; }
   .ghost-logo:hover {
     text-decoration: none; }
@@ -3034,7 +3031,7 @@ a.object-list-item {
     speak: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    content: "\f025";
+    content: "\f625";
     vertical-align: -10%; }
   .navbar nav .dashboard a:hover {
     text-decoration: none; }
@@ -3047,7 +3044,7 @@ a.object-list-item {
     speak: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    content: "\f02d"; }
+    content: "\f62d"; }
   .navbar nav .content a:hover {
     text-decoration: none; }
   .navbar nav .editor a:before {
@@ -3059,7 +3056,7 @@ a.object-list-item {
     speak: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    content: "\f032"; }
+    content: "\f632"; }
   .navbar nav .editor a:hover {
     text-decoration: none; }
   .navbar nav .settings a:before {
@@ -3071,7 +3068,7 @@ a.object-list-item {
     speak: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    content: "\f029"; }
+    content: "\f629"; }
   .navbar nav .settings a:hover {
     text-decoration: none; }
   .navbar .subnav {
@@ -3086,7 +3083,7 @@ a.object-list-item {
       speak: none;
       line-height: 1;
       -webkit-font-smoothing: antialiased;
-      content: "\f001";
+      content: "\f601";
       font-size: 8px;
       margin-left: 8px; }
     .navbar .subnav > a:hover,
@@ -3160,7 +3157,7 @@ a.object-list-item {
     speak: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    content: "\f02e"; }
+    content: "\f62e"; }
   .usermenu.subnav .usermenu-profile a:hover {
     text-decoration: none; }
   .usermenu.subnav .usermenu-help a:before {
@@ -3172,7 +3169,7 @@ a.object-list-item {
     speak: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    content: "\f02f";
+    content: "\f62f";
     font-size: 1.1em; }
   .usermenu.subnav .usermenu-help a:hover {
     text-decoration: none; }
@@ -3185,7 +3182,7 @@ a.object-list-item {
     speak: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    content: "\f00d"; }
+    content: "\f60d"; }
   .usermenu.subnav .usermenu-shortcuts a:hover {
     text-decoration: none; }
   .usermenu.subnav .usermenu-signout a:before {
@@ -3197,7 +3194,7 @@ a.object-list-item {
     speak: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    content: "\f02b"; }
+    content: "\f62b"; }
   .usermenu.subnav .usermenu-signout a:hover {
     text-decoration: none; }
 
@@ -3222,7 +3219,7 @@ a.object-list-item {
       speak: none;
       line-height: 1;
       -webkit-font-smoothing: antialiased;
-      content: "\f005";
+      content: "\f605";
       font-size: 14px; }
     #global-header .ghost-logo:hover {
       text-decoration: none; }
@@ -3580,7 +3577,7 @@ nav li a {
       speak: none;
       line-height: 1;
       -webkit-font-smoothing: antialiased;
-      content: "\f012";
+      content: "\f612";
       font-size: 12px;
       position: absolute;
       bottom: 11px;
@@ -3605,7 +3602,7 @@ nav li a {
       speak: none;
       line-height: 1;
       -webkit-font-smoothing: antialiased;
-      content: "\f02c";
+      content: "\f62c";
       font-size: 10px;
       position: absolute;
       bottom: 12px;
@@ -3779,7 +3776,7 @@ nav li a {
   speak: none;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
-  content: "\f000";
+  content: "\f600";
   font-size: 1.28rem;
   color: #7d878a;
   position: relative;
@@ -3795,7 +3792,7 @@ nav li a {
   speak: none;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
-  content: "\f600";
+  content: "\f640";
   font-size: 2.5rem;
   color: #242628; }
 .settings-about .ghost_logo:hover {
@@ -3961,7 +3958,7 @@ nav li a {
       speak: none;
       line-height: 1;
       -webkit-font-smoothing: antialiased;
-      content: "\f032"; }
+      content: "\f632"; }
     .manage .content-list .button-add:hover {
       text-decoration: none; }
   .manage .content-list .content-list-content {
@@ -3991,7 +3988,7 @@ nav li a {
       speak: none;
       line-height: 1;
       -webkit-font-smoothing: antialiased;
-      content: "\f025";
+      content: "\f625";
       font-size: 10px;
       color: #aaa9a2; }
     .manage .content-list .views:hover {
@@ -4008,7 +4005,7 @@ nav li a {
     speak: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    content: "\f026";
+    content: "\f626";
     font-size: 11px;
     margin-right: 10px;
     vertical-align: 7%; }
@@ -4047,7 +4044,7 @@ nav li a {
           speak: none;
           line-height: 1;
           -webkit-font-smoothing: antialiased;
-          content: "\f01d";
+          content: "\f61d";
           position: absolute;
           top: 50%;
           margin-top: -6px;
@@ -4085,7 +4082,7 @@ nav li a {
             speak: none;
             line-height: 1;
             -webkit-font-smoothing: antialiased;
-            content: "\f025";
+            content: "\f625";
             font-size: 10px;
             color: #242628; }
           .manage .content-list ol li.active .views:hover {
@@ -4124,7 +4121,7 @@ nav li a {
       speak: none;
       line-height: 1;
       -webkit-font-smoothing: antialiased;
-      content: "\f027";
+      content: "\f627";
       font-size: 14px; }
     .manage .content-preview .unfeatured:hover {
       text-decoration: none; }
@@ -4141,7 +4138,7 @@ nav li a {
       speak: none;
       line-height: 1;
       -webkit-font-smoothing: antialiased;
-      content: "\f026";
+      content: "\f626";
       font-size: 14px; }
     .manage .content-preview .featured:hover {
       text-decoration: none; }
@@ -4185,7 +4182,7 @@ nav li a {
       speak: none;
       line-height: 1;
       -webkit-font-smoothing: antialiased;
-      content: "\f00f";
+      content: "\f60f";
       font-size: 14px; }
     .manage .content-preview .post-edit:hover {
       text-decoration: none; }
@@ -4346,6 +4343,13 @@ nav li a {
     .editor .entry-preview .markdown-help,
     .editor .entry-preview .entry-word-count {
       display: none; } }
+@media (max-width: 1000px) {
+  .editor .entry-markdown .entry-markdown-content,
+  .editor .entry-preview .entry-preview-content {
+    display: none; }
+  .editor .entry-markdown.active .entry-markdown-content,
+  .editor .entry-preview.active .entry-preview-content {
+    display: block; } }
 .editor .entry-markdown-content textarea {
   border: 0;
   width: 100%;
@@ -4482,7 +4486,7 @@ nav li a {
     speak: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    content: "\f018";
+    content: "\f618";
     color: #cfceca; }
   .markdown-help:hover {
     text-decoration: none; }
@@ -4495,7 +4499,7 @@ nav li a {
     speak: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    content: "\f018";
+    content: "\f618";
     color: #aaa9a2; }
   .markdown-help:hover:hover {
     text-decoration: none; }
@@ -4647,6 +4651,17 @@ body.zen {
     #publish-bar .splitbutton-save .editor-options a,
     #publish-bar .splitbutton-delete .editor-options a {
       font-size: 14px; }
+  @media (max-width: 450px) {
+    #publish-bar #entry-actions {
+      float: left;
+      margin-right: 2px; }
+    #publish-bar #entry-controls {
+      float: right;
+      padding-top: 8px; }
+      #publish-bar #entry-controls .post-settings-menu {
+        margin-right: 5px; }
+        #publish-bar #entry-controls .post-settings-menu:before {
+          right: 5px; } }
 
 .extended-tags {
   position: static;
@@ -4728,7 +4743,7 @@ body.zen {
       speak: none;
       line-height: 1;
       -webkit-font-smoothing: antialiased;
-      content: "\f003"; }
+      content: "\f603"; }
     #entry-tags .tag-label:hover {
       text-decoration: none; }
     #entry-tags .tag-label:hover {
@@ -4777,7 +4792,7 @@ body.zen {
       speak: none;
       line-height: 1;
       -webkit-font-smoothing: antialiased;
-      content: "\f034";
+      content: "\f634";
       font-size: 8px;
       color: #242628;
       margin-left: 4px;
@@ -4799,7 +4814,7 @@ body.zen {
         speak: none;
         line-height: 1;
         -webkit-font-smoothing: antialiased;
-        content: "\f034";
+        content: "\f634";
         font-size: 8px;
         color: #e2edf2;
         margin-left: 4px;
@@ -5243,7 +5258,7 @@ body.zen {
     speak: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    content: "\f006";
+    content: "\f606";
     font-size: 14px; }
   .post-settings:hover {
     text-decoration: none; }
@@ -5330,7 +5345,7 @@ body.zen {
       speak: none;
       line-height: 1;
       -webkit-font-smoothing: antialiased;
-      content: "\f023";
+      content: "\f623";
       position: relative;
       top: -1px;
       margin-right: 10px; }
@@ -5348,6 +5363,7 @@ body.zen {
  * Settings
  * Sidebar
  * Content
+ * Debug
  * Code Injection
  */
 /* ==========================================================================
@@ -5448,7 +5464,7 @@ body.zen {
           speak: none;
           line-height: 1;
           -webkit-font-smoothing: antialiased;
-          content: "\f01d";
+          content: "\f61d";
           float: right;
           margin-top: 5px; }
         .settings-menu li a:hover {
@@ -5485,7 +5501,7 @@ body.zen {
     speak: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    content: "\f000"; }
+    content: "\f600"; }
   .settings-menu .about a:hover {
     text-decoration: none; }
   .settings-menu .general a:before {
@@ -5497,7 +5513,7 @@ body.zen {
     speak: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    content: "\f006"; }
+    content: "\f606"; }
   .settings-menu .general a:hover {
     text-decoration: none; }
   .settings-menu .publishing a:before {
@@ -5509,7 +5525,7 @@ body.zen {
     speak: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    content: "\f02d"; }
+    content: "\f62d"; }
   .settings-menu .publishing a:hover {
     text-decoration: none; }
   .settings-menu .services a:before {
@@ -5521,7 +5537,7 @@ body.zen {
     speak: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    content: "\f020"; }
+    content: "\f620"; }
   .settings-menu .services a:hover {
     text-decoration: none; }
   .settings-menu .users a:before {
@@ -5533,7 +5549,7 @@ body.zen {
     speak: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    content: "\f002"; }
+    content: "\f602"; }
   .settings-menu .users a:hover {
     text-decoration: none; }
   .settings-menu .appearance a:before {
@@ -5545,7 +5561,7 @@ body.zen {
     speak: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    content: "\f021"; }
+    content: "\f621"; }
   .settings-menu .appearance a:hover {
     text-decoration: none; }
   .settings-menu .apps a:before {
@@ -5557,7 +5573,7 @@ body.zen {
     speak: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    content: "\f00b"; }
+    content: "\f60b"; }
   .settings-menu .apps a:hover {
     text-decoration: none; }
   .settings-menu .code a:before {
@@ -5569,7 +5585,7 @@ body.zen {
     speak: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    content: "\f03e"; }
+    content: "\f63e"; }
   .settings-menu .code a:hover {
     text-decoration: none; }
 
@@ -5686,7 +5702,7 @@ body.zen {
         speak: none;
         line-height: 1;
         -webkit-font-smoothing: antialiased;
-        content: "\f032";
+        content: "\f632";
         font-size: 1.4em;
         color: rgba(255, 255, 255, 0.6);
         position: absolute;
@@ -5747,6 +5763,21 @@ body.zen {
       max-width: 100%; }
       .settings-content textarea + p {
         max-width: 100%; } }
+
+/* =============================================================================
+   Debug
+   ============================================================================= */
+.settings-debug .content:before {
+  height: 0; }
+@media (max-width: 800px) {
+  .settings-debug .settings-content {
+    left: 0;
+    right: 0;
+    z-index: 800;
+    top: 77px; } }
+@media (max-width: 550px) {
+  .settings-debug .settings-content {
+    top: 97px; } }
 
 /* =============================================================================
    Code Injection
@@ -5897,7 +5928,7 @@ body.zen {
       speak: none;
       line-height: 1;
       -webkit-font-smoothing: antialiased;
-      content: "\f007";
+      content: "\f607";
       font-size: 1em;
       color: #c0bfb6; }
     .settings .user-search .search-icon:hover {
@@ -5934,7 +5965,7 @@ body.zen {
           speak: none;
           line-height: 1;
           -webkit-font-smoothing: antialiased;
-          content: "\f012";
+          content: "\f612";
           font-size: 1em;
           color: #aaa9a2; }
         .settings .user .user-image.invite:hover {
