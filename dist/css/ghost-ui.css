@@ -4651,6 +4651,17 @@ body.zen {
     #publish-bar .splitbutton-save .editor-options a,
     #publish-bar .splitbutton-delete .editor-options a {
       font-size: 14px; }
+  @media (max-width: 450px) {
+    #publish-bar #entry-actions {
+      float: left;
+      margin-right: 2px; }
+    #publish-bar #entry-controls {
+      float: right;
+      padding-top: 8px; }
+      #publish-bar #entry-controls .post-settings-menu {
+        margin-right: 5px; }
+        #publish-bar #entry-controls .post-settings-menu:before {
+          right: 5px; } }
 
 .extended-tags {
   position: static;

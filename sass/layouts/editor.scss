@@ -528,6 +528,24 @@ body.zen {
             }
         }
     }
+
+    @media (max-width: 450px) {
+        #entry-actions {
+            float: left;
+            margin-right: 2px;
+        }
+        #entry-controls {
+            float: right;
+            padding-top: 8px;
+            .post-settings-menu {
+                margin-right: 5px;
+                &:before {
+                    right: 5px;
+                }
+            }
+        }
+    }
+
 }
 
 .extended-tags { // When the tag bar is exapanded
