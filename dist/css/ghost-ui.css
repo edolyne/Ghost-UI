@@ -4343,6 +4343,13 @@ nav li a {
     .editor .entry-preview .markdown-help,
     .editor .entry-preview .entry-word-count {
       display: none; } }
+@media (max-width: 1000px) {
+  .editor .entry-markdown .entry-markdown-content,
+  .editor .entry-preview .entry-preview-content {
+    display: none; }
+  .editor .entry-markdown.active .entry-markdown-content,
+  .editor .entry-preview.active .entry-preview-content {
+    display: block; } }
 .editor .entry-markdown-content textarea {
   border: 0;
   width: 100%;

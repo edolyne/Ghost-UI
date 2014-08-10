@@ -169,6 +169,19 @@
 
     } // .entry-markdown, .entry-preview
 
+    @media (max-width: 1000px) {
+
+        .entry-markdown .entry-markdown-content,
+        .entry-preview .entry-preview-content {
+            display: none;
+        }
+        .entry-markdown.active .entry-markdown-content,
+        .entry-preview.active .entry-preview-content {
+            display: block;
+        }
+
+    } // @media (max-width: 1000px)
+
     .entry-markdown-content {
 
         textarea {
