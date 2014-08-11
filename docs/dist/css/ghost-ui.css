@@ -2929,7 +2929,6 @@ a.object-list-item {
    Ghost Logo
    ========================================================================== */
 .ghost-logo {
-  display: block;
   float: left;
   height: 40px;
   padding: 12px 15px;
@@ -2958,6 +2957,12 @@ a.object-list-item {
   color: #e2edf2;
   background: #1f2123; }
 
+@media (max-width: 650px) {
+  .ghost-logo-link {
+    display: none; } }
+@media (min-width: 651px) {
+  .ghost-logo-button {
+    display: none; } }
 /* ==========================================================================
    Nav Bar
    ========================================================================== */

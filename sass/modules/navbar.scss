@@ -17,7 +17,6 @@
     @include icon($i-ghost) {
         line-height: 0;
     }
-    display: block;
     float: left;
     height: 40px;
     padding: 12px 15px;
@@ -34,6 +33,17 @@
 .ghost-logo:focus {
     color: $lightgrey;
     background: darken($darkgrey, 2%);
+}
+
+@media (max-width: 650px) {
+    .ghost-logo-link {
+        display: none;
+    }
+}
+@media (min-width: 651px) {
+    .ghost-logo-button {
+        display: none;
+    }
 }
 
 
