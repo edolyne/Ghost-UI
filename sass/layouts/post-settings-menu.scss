@@ -110,7 +110,9 @@
     .checkbox {
         position: relative;
         margin-top: 0;
-        top: 0; // Resets a global `form label` style
+        width: 0px;
+        height: 0px;
+        top: -12px; // Resets a global `form label` style
         border: 0;
         &:after {
             border-color: lighten($grey, 10%);
